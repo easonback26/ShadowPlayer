@@ -7,27 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86CE3A2E23CD5A0F006C701E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CE3A2D23CD5A0F006C701E /* AppDelegate.swift */; };
-		86CE3A3023CD5A0F006C701E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CE3A2F23CD5A0F006C701E /* SceneDelegate.swift */; };
-		86CE3A3223CD5A0F006C701E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CE3A3123CD5A0F006C701E /* ViewController.swift */; };
-		86CE3A3523CD5A0F006C701E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86CE3A3323CD5A0F006C701E /* Main.storyboard */; };
-		86CE3A3723CD5A10006C701E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86CE3A3623CD5A10006C701E /* Assets.xcassets */; };
-		86CE3A3A23CD5A10006C701E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86CE3A3823CD5A10006C701E /* LaunchScreen.storyboard */; };
+		86CE3A4E23CD5BBC006C701E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CE3A4D23CD5BBC006C701E /* AppDelegate.swift */; };
+		86CE3A5023CD5BBC006C701E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CE3A4F23CD5BBC006C701E /* SceneDelegate.swift */; };
+		86CE3A5223CD5BBC006C701E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CE3A5123CD5BBC006C701E /* FirstViewController.swift */; };
+		86CE3A5423CD5BBC006C701E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CE3A5323CD5BBC006C701E /* SecondViewController.swift */; };
+		86CE3A5723CD5BBC006C701E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86CE3A5523CD5BBC006C701E /* Main.storyboard */; };
+		86CE3A5923CD5BBE006C701E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86CE3A5823CD5BBE006C701E /* Assets.xcassets */; };
+		86CE3A5C23CD5BBE006C701E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86CE3A5A23CD5BBE006C701E /* LaunchScreen.storyboard */; };
+		86CE3A7123CD625A006C701E /* The Witcher 3 Soundtrack - The Wolven Storm (Priscilla's song).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86CE3A6823CD625A006C701E /* The Witcher 3 Soundtrack - The Wolven Storm (Priscilla's song).mp3 */; };
+		86CE3A7223CD625A006C701E /* Carol of the Bells by Barlow Girl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86CE3A6923CD625A006C701E /* Carol of the Bells by Barlow Girl.mp3 */; };
+		86CE3A7523CD625A006C701E /* Glamorous Sky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86CE3A6C23CD625A006C701E /* Glamorous Sky.mp3 */; };
+		86CE3A7623CD625A006C701E /* Hans Zimmer - No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86CE3A6D23CD625A006C701E /* Hans Zimmer - No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3 */; };
+		86CE3A7823CD625A006C701E /* GACKT .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86CE3A6F23CD625A006C701E /* GACKT .mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		86CE3A2A23CD5A0F006C701E /* ShadowPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		86CE3A2D23CD5A0F006C701E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86CE3A2F23CD5A0F006C701E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		86CE3A3123CD5A0F006C701E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		86CE3A3423CD5A0F006C701E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		86CE3A3623CD5A10006C701E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		86CE3A3923CD5A10006C701E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86CE3A3B23CD5A10006C701E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86CE3A4A23CD5BBC006C701E /* ShadowPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86CE3A4D23CD5BBC006C701E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86CE3A4F23CD5BBC006C701E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86CE3A5123CD5BBC006C701E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		86CE3A5323CD5BBC006C701E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		86CE3A5623CD5BBC006C701E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86CE3A5823CD5BBE006C701E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86CE3A5B23CD5BBE006C701E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86CE3A5D23CD5BBE006C701E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86CE3A6823CD625A006C701E /* The Witcher 3 Soundtrack - The Wolven Storm (Priscilla's song).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Witcher 3 Soundtrack - The Wolven Storm (Priscilla's song).mp3"; sourceTree = "<group>"; };
+		86CE3A6923CD625A006C701E /* Carol of the Bells by Barlow Girl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Carol of the Bells by Barlow Girl.mp3"; sourceTree = "<group>"; };
+		86CE3A6C23CD625A006C701E /* Glamorous Sky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Glamorous Sky.mp3"; sourceTree = "<group>"; };
+		86CE3A6D23CD625A006C701E /* Hans Zimmer - No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hans Zimmer - No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3"; sourceTree = "<group>"; };
+		86CE3A6F23CD625A006C701E /* GACKT .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "GACKT .mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		86CE3A2723CD5A0F006C701E /* Frameworks */ = {
+		86CE3A4723CD5BBC006C701E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,46 +49,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		86CE3A2123CD5A0F006C701E = {
+		86CE3A4123CD5BBC006C701E = {
 			isa = PBXGroup;
 			children = (
-				86CE3A2C23CD5A0F006C701E /* ShadowPlayer */,
-				86CE3A2B23CD5A0F006C701E /* Products */,
+				86CE3A4C23CD5BBC006C701E /* ShadowPlayer */,
+				86CE3A4B23CD5BBC006C701E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		86CE3A2B23CD5A0F006C701E /* Products */ = {
+		86CE3A4B23CD5BBC006C701E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86CE3A2A23CD5A0F006C701E /* ShadowPlayer.app */,
+				86CE3A4A23CD5BBC006C701E /* ShadowPlayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		86CE3A2C23CD5A0F006C701E /* ShadowPlayer */ = {
+		86CE3A4C23CD5BBC006C701E /* ShadowPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				86CE3A2D23CD5A0F006C701E /* AppDelegate.swift */,
-				86CE3A2F23CD5A0F006C701E /* SceneDelegate.swift */,
-				86CE3A3123CD5A0F006C701E /* ViewController.swift */,
-				86CE3A3323CD5A0F006C701E /* Main.storyboard */,
-				86CE3A3623CD5A10006C701E /* Assets.xcassets */,
-				86CE3A3823CD5A10006C701E /* LaunchScreen.storyboard */,
-				86CE3A3B23CD5A10006C701E /* Info.plist */,
+				86CE3A6523CD620D006C701E /* New Group */,
+				86CE3A4D23CD5BBC006C701E /* AppDelegate.swift */,
+				86CE3A4F23CD5BBC006C701E /* SceneDelegate.swift */,
+				86CE3A5123CD5BBC006C701E /* FirstViewController.swift */,
+				86CE3A5323CD5BBC006C701E /* SecondViewController.swift */,
+				86CE3A5523CD5BBC006C701E /* Main.storyboard */,
+				86CE3A5823CD5BBE006C701E /* Assets.xcassets */,
+				86CE3A5A23CD5BBE006C701E /* LaunchScreen.storyboard */,
+				86CE3A5D23CD5BBE006C701E /* Info.plist */,
+				86CE3A6623CD625A006C701E /* Songs */,
 			);
 			path = ShadowPlayer;
+			sourceTree = "<group>";
+		};
+		86CE3A6523CD620D006C701E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		86CE3A6623CD625A006C701E /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				86CE3A6823CD625A006C701E /* The Witcher 3 Soundtrack - The Wolven Storm (Priscilla's song).mp3 */,
+				86CE3A6923CD625A006C701E /* Carol of the Bells by Barlow Girl.mp3 */,
+				86CE3A6C23CD625A006C701E /* Glamorous Sky.mp3 */,
+				86CE3A6D23CD625A006C701E /* Hans Zimmer - No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3 */,
+				86CE3A6F23CD625A006C701E /* GACKT .mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		86CE3A2923CD5A0F006C701E /* ShadowPlayer */ = {
+		86CE3A4923CD5BBC006C701E /* ShadowPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86CE3A3E23CD5A10006C701E /* Build configuration list for PBXNativeTarget "ShadowPlayer" */;
+			buildConfigurationList = 86CE3A6023CD5BBE006C701E /* Build configuration list for PBXNativeTarget "ShadowPlayer" */;
 			buildPhases = (
-				86CE3A2623CD5A0F006C701E /* Sources */,
-				86CE3A2723CD5A0F006C701E /* Frameworks */,
-				86CE3A2823CD5A0F006C701E /* Resources */,
+				86CE3A4623CD5BBC006C701E /* Sources */,
+				86CE3A4723CD5BBC006C701E /* Frameworks */,
+				86CE3A4823CD5BBC006C701E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +118,25 @@
 			);
 			name = ShadowPlayer;
 			productName = ShadowPlayer;
-			productReference = 86CE3A2A23CD5A0F006C701E /* ShadowPlayer.app */;
+			productReference = 86CE3A4A23CD5BBC006C701E /* ShadowPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		86CE3A2223CD5A0F006C701E /* Project object */ = {
+		86CE3A4223CD5BBC006C701E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Shadow Song";
 				TargetAttributes = {
-					86CE3A2923CD5A0F006C701E = {
+					86CE3A4923CD5BBC006C701E = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
-			buildConfigurationList = 86CE3A2523CD5A0F006C701E /* Build configuration list for PBXProject "ShadowPlayer" */;
+			buildConfigurationList = 86CE3A4523CD5BBC006C701E /* Build configuration list for PBXProject "ShadowPlayer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +144,61 @@
 				en,
 				Base,
 			);
-			mainGroup = 86CE3A2123CD5A0F006C701E;
-			productRefGroup = 86CE3A2B23CD5A0F006C701E /* Products */;
+			mainGroup = 86CE3A4123CD5BBC006C701E;
+			productRefGroup = 86CE3A4B23CD5BBC006C701E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				86CE3A2923CD5A0F006C701E /* ShadowPlayer */,
+				86CE3A4923CD5BBC006C701E /* ShadowPlayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		86CE3A2823CD5A0F006C701E /* Resources */ = {
+		86CE3A4823CD5BBC006C701E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86CE3A3A23CD5A10006C701E /* LaunchScreen.storyboard in Resources */,
-				86CE3A3723CD5A10006C701E /* Assets.xcassets in Resources */,
-				86CE3A3523CD5A0F006C701E /* Main.storyboard in Resources */,
+				86CE3A7523CD625A006C701E /* Glamorous Sky.mp3 in Resources */,
+				86CE3A7623CD625A006C701E /* Hans Zimmer - No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3 in Resources */,
+				86CE3A7123CD625A006C701E /* The Witcher 3 Soundtrack - The Wolven Storm (Priscilla's song).mp3 in Resources */,
+				86CE3A5C23CD5BBE006C701E /* LaunchScreen.storyboard in Resources */,
+				86CE3A5923CD5BBE006C701E /* Assets.xcassets in Resources */,
+				86CE3A7223CD625A006C701E /* Carol of the Bells by Barlow Girl.mp3 in Resources */,
+				86CE3A7823CD625A006C701E /* GACKT .mp3 in Resources */,
+				86CE3A5723CD5BBC006C701E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		86CE3A2623CD5A0F006C701E /* Sources */ = {
+		86CE3A4623CD5BBC006C701E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86CE3A3223CD5A0F006C701E /* ViewController.swift in Sources */,
-				86CE3A2E23CD5A0F006C701E /* AppDelegate.swift in Sources */,
-				86CE3A3023CD5A0F006C701E /* SceneDelegate.swift in Sources */,
+				86CE3A5423CD5BBC006C701E /* SecondViewController.swift in Sources */,
+				86CE3A5223CD5BBC006C701E /* FirstViewController.swift in Sources */,
+				86CE3A4E23CD5BBC006C701E /* AppDelegate.swift in Sources */,
+				86CE3A5023CD5BBC006C701E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		86CE3A3323CD5A0F006C701E /* Main.storyboard */ = {
+		86CE3A5523CD5BBC006C701E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				86CE3A3423CD5A0F006C701E /* Base */,
+				86CE3A5623CD5BBC006C701E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		86CE3A3823CD5A10006C701E /* LaunchScreen.storyboard */ = {
+		86CE3A5A23CD5BBE006C701E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				86CE3A3923CD5A10006C701E /* Base */,
+				86CE3A5B23CD5BBE006C701E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +206,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		86CE3A3C23CD5A10006C701E /* Debug */ = {
+		86CE3A5E23CD5BBE006C701E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		86CE3A3D23CD5A10006C701E /* Release */ = {
+		86CE3A5F23CD5BBE006C701E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +320,7 @@
 			};
 			name = Release;
 		};
-		86CE3A3F23CD5A10006C701E /* Debug */ = {
+		86CE3A6123CD5BBE006C701E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -298,7 +338,7 @@
 			};
 			name = Debug;
 		};
-		86CE3A4023CD5A10006C701E /* Release */ = {
+		86CE3A6223CD5BBE006C701E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,25 +359,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86CE3A2523CD5A0F006C701E /* Build configuration list for PBXProject "ShadowPlayer" */ = {
+		86CE3A4523CD5BBC006C701E /* Build configuration list for PBXProject "ShadowPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86CE3A3C23CD5A10006C701E /* Debug */,
-				86CE3A3D23CD5A10006C701E /* Release */,
+				86CE3A5E23CD5BBE006C701E /* Debug */,
+				86CE3A5F23CD5BBE006C701E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86CE3A3E23CD5A10006C701E /* Build configuration list for PBXNativeTarget "ShadowPlayer" */ = {
+		86CE3A6023CD5BBE006C701E /* Build configuration list for PBXNativeTarget "ShadowPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86CE3A3F23CD5A10006C701E /* Debug */,
-				86CE3A4023CD5A10006C701E /* Release */,
+				86CE3A6123CD5BBE006C701E /* Debug */,
+				86CE3A6223CD5BBE006C701E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 86CE3A2223CD5A0F006C701E /* Project object */;
+	rootObject = 86CE3A4223CD5BBC006C701E /* Project object */;
 }
