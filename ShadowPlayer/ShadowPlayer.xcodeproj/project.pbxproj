@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860C1BDC23D271C200D2F721 /* ivan-torrent-dandelion-2014tribute-to-enigma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 860C1BDA23D271C100D2F721 /* ivan-torrent-dandelion-2014tribute-to-enigma.mp3 */; };
+		860C1BDD23D271C200D2F721 /* nogizaka46464.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 860C1BDB23D271C200D2F721 /* nogizaka46464.mp3 */; };
+		8617098023D610F90030703E /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8617097F23D610F90030703E /* test.swift */; };
+		868A35BF23D4B32800351351 /* How to Pronounce Hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 868A35BE23D4B32800351351 /* How to Pronounce Hello.mp3 */; };
 		86CE3A4E23CD5BBC006C701E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CE3A4D23CD5BBC006C701E /* AppDelegate.swift */; };
 		86CE3A5023CD5BBC006C701E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CE3A4F23CD5BBC006C701E /* SceneDelegate.swift */; };
 		86CE3A5223CD5BBC006C701E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CE3A5123CD5BBC006C701E /* FirstViewController.swift */; };
@@ -22,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		860C1BDA23D271C100D2F721 /* ivan-torrent-dandelion-2014tribute-to-enigma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ivan-torrent-dandelion-2014tribute-to-enigma.mp3"; sourceTree = "<group>"; };
+		860C1BDB23D271C200D2F721 /* nogizaka46464.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nogizaka46464.mp3; sourceTree = "<group>"; };
+		8617097F23D610F90030703E /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		868A35BE23D4B32800351351 /* How to Pronounce Hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "How to Pronounce Hello.mp3"; sourceTree = "<group>"; };
 		86CE3A4A23CD5BBC006C701E /* ShadowPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CE3A4D23CD5BBC006C701E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86CE3A4F23CD5BBC006C701E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,11 +76,11 @@
 		86CE3A4C23CD5BBC006C701E /* ShadowPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				86CE3A6523CD620D006C701E /* New Group */,
 				86CE3A4D23CD5BBC006C701E /* AppDelegate.swift */,
 				86CE3A4F23CD5BBC006C701E /* SceneDelegate.swift */,
 				86CE3A5123CD5BBC006C701E /* FirstViewController.swift */,
 				86CE3A5323CD5BBC006C701E /* SecondViewController.swift */,
+				8617097F23D610F90030703E /* test.swift */,
 				86CE3A5523CD5BBC006C701E /* Main.storyboard */,
 				86CE3A5823CD5BBE006C701E /* Assets.xcassets */,
 				86CE3A5A23CD5BBE006C701E /* LaunchScreen.storyboard */,
@@ -82,18 +90,14 @@
 			path = ShadowPlayer;
 			sourceTree = "<group>";
 		};
-		86CE3A6523CD620D006C701E /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		86CE3A6623CD625A006C701E /* Songs */ = {
 			isa = PBXGroup;
 			children = (
+				860C1BDA23D271C100D2F721 /* ivan-torrent-dandelion-2014tribute-to-enigma.mp3 */,
+				860C1BDB23D271C200D2F721 /* nogizaka46464.mp3 */,
 				86CE3A6823CD625A006C701E /* The Witcher 3 Soundtrack - The Wolven Storm (Priscilla's song).mp3 */,
 				86CE3A6923CD625A006C701E /* Carol of the Bells by Barlow Girl.mp3 */,
+				868A35BE23D4B32800351351 /* How to Pronounce Hello.mp3 */,
 				86CE3A6C23CD625A006C701E /* Glamorous Sky.mp3 */,
 				86CE3A6D23CD625A006C701E /* Hans Zimmer - No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3 */,
 				86CE3A6F23CD625A006C701E /* GACKT .mp3 */,
@@ -159,10 +163,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860C1BDC23D271C200D2F721 /* ivan-torrent-dandelion-2014tribute-to-enigma.mp3 in Resources */,
 				86CE3A7523CD625A006C701E /* Glamorous Sky.mp3 in Resources */,
+				868A35BF23D4B32800351351 /* How to Pronounce Hello.mp3 in Resources */,
 				86CE3A7623CD625A006C701E /* Hans Zimmer - No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3 in Resources */,
 				86CE3A7123CD625A006C701E /* The Witcher 3 Soundtrack - The Wolven Storm (Priscilla's song).mp3 in Resources */,
 				86CE3A5C23CD5BBE006C701E /* LaunchScreen.storyboard in Resources */,
+				860C1BDD23D271C200D2F721 /* nogizaka46464.mp3 in Resources */,
 				86CE3A5923CD5BBE006C701E /* Assets.xcassets in Resources */,
 				86CE3A7223CD625A006C701E /* Carol of the Bells by Barlow Girl.mp3 in Resources */,
 				86CE3A7823CD625A006C701E /* GACKT .mp3 in Resources */,
@@ -180,6 +187,7 @@
 				86CE3A5423CD5BBC006C701E /* SecondViewController.swift in Sources */,
 				86CE3A5223CD5BBC006C701E /* FirstViewController.swift in Sources */,
 				86CE3A4E23CD5BBC006C701E /* AppDelegate.swift in Sources */,
+				8617098023D610F90030703E /* test.swift in Sources */,
 				86CE3A5023CD5BBC006C701E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

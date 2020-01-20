@@ -92,22 +92,8 @@
                                     <constraint firstAttribute="width" constant="240" id="tpL-uW-iXI"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4WY-nv-ZIe">
-                                <rect key="frame" x="38" y="377.5" width="84" height="30"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="84" id="Vf0-4R-Sr9"/>
-                                    <constraint firstAttribute="height" constant="30" id="otw-7U-Dhz"/>
-                                </constraints>
-                                <state key="normal" title="PLAY">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="play:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="guK-C9-HYu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXQ-8C-jsf">
-                                <rect key="frame" x="198" y="377.5" width="84" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXQ-8C-jsf">
+                                <rect key="frame" x="213" y="38" width="84" height="30"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="84" id="TBf-cy-J2t"/>
@@ -134,7 +120,7 @@
                                     <action selector="next:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="lL4-u1-bvq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R57-Sr-qyT">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R57-Sr-qyT">
                                 <rect key="frame" x="38" y="423" width="84" height="30"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -158,21 +144,34 @@
                                     <action selector="slider:" destination="8rJ-Kc-sve" eventType="valueChanged" id="w1r-Uq-Z08"/>
                                 </connections>
                             </slider>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4WY-nv-ZIe">
+                                <rect key="frame" x="145" y="377" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4WY-nv-ZIe" secondAttribute="height" multiplier="1:1" id="atz-tu-fq8"/>
+                                    <constraint firstAttribute="height" constant="30" id="n3k-Vk-GHG"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="PLAY" image="play_icon">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="guK-C9-HYu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="kXQ-8C-jsf" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" constant="80" id="1Rm-NE-UN7"/>
                             <constraint firstItem="X46-CE-2eU" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" constant="-50" id="8VH-aA-4fs"/>
                             <constraint firstItem="gEe-7h-QpQ" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="8jY-k9-s14"/>
+                            <constraint firstItem="4WY-nv-ZIe" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="FJj-Ta-RT7"/>
                             <constraint firstItem="PSO-wg-J0u" firstAttribute="top" secondItem="kXQ-8C-jsf" secondAttribute="bottom" constant="15.5" id="Scq-kR-jHV"/>
                             <constraint firstItem="gEe-7h-QpQ" firstAttribute="top" secondItem="PSO-wg-J0u" secondAttribute="bottom" constant="15" id="WGo-Ok-wN4"/>
                             <constraint firstItem="PSO-wg-J0u" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" constant="80" id="ZUu-vr-F2O"/>
-                            <constraint firstItem="4WY-nv-ZIe" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" constant="-80" id="dOj-my-Dxk"/>
+                            <constraint firstItem="4WY-nv-ZIe" firstAttribute="top" secondItem="X46-CE-2eU" secondAttribute="bottom" constant="14.5" id="cy3-vL-F9o"/>
                             <constraint firstItem="X46-CE-2eU" firstAttribute="top" secondItem="Zgp-0r-n3t" secondAttribute="bottom" constant="26.5" id="dUZ-Ie-rRL"/>
-                            <constraint firstItem="4WY-nv-ZIe" firstAttribute="top" secondItem="X46-CE-2eU" secondAttribute="bottom" constant="15" id="ezD-jF-AIz"/>
                             <constraint firstItem="X46-CE-2eU" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="gCR-4k-hko"/>
                             <constraint firstItem="R57-Sr-qyT" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" constant="-80" id="ihE-z4-IdA"/>
-                            <constraint firstItem="R57-Sr-qyT" firstAttribute="top" secondItem="4WY-nv-ZIe" secondAttribute="bottom" constant="15.5" id="j16-Yt-gqN"/>
                             <constraint firstItem="kXQ-8C-jsf" firstAttribute="top" secondItem="X46-CE-2eU" secondAttribute="bottom" constant="15" id="lbX-nj-kTI"/>
                             <constraint firstItem="Zgp-0r-n3t" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="u1R-vY-hg2"/>
                         </constraints>
@@ -210,6 +209,7 @@
     <resources>
         <image name="Free_Form" width="494" height="642"/>
         <image name="first" width="30" height="30"/>
+        <image name="play_icon" width="144" height="144"/>
         <image name="second" width="30" height="30"/>
     </resources>
 </document>

@@ -65,6 +65,10 @@ class SecondViewController: UIViewController {
         {
             let audioPath = Bundle.main.path(forResource: thisOne, ofType: ".mp3")
             try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+            
+            //Loop forever
+            audioPlayer.numberOfLoops = -1;
+            
             audioPlayer.play()
         }
         catch

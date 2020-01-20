@@ -37,7 +37,11 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let audioPath = Bundle.main.path(forResource: songs[indexPath.row], ofType: ".mp3")
             try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
             
+            //Loop forever
+            audioPlayer.numberOfLoops = -1;
+            
             audioPlayer.play()
+                
             thisSong = indexPath.row
             audioStuffed = true
         }
