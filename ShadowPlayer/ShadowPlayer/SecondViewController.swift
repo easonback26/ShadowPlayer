@@ -13,21 +13,30 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var myImageView: UIImageView!
     
+    
     @IBAction func play(_ sender: Any)
     {
-        if audioStuffed && audioPlayer.isPlaying == false
-        {
-            audioPlayer.play()
-        }
-    }
-    
-    @IBAction func pause(_ sender: Any)
-    {
+        print("play pressed")
+        
         if audioStuffed && audioPlayer.isPlaying
         {
             audioPlayer.pause()
         }
+        else if audioStuffed && !audioPlayer.isPlaying
+        {
+            audioPlayer.play()
+
+        }
+        
     }
+    
+//    @IBAction func pause(_ sender: Any)
+//    {
+//        if audioStuffed && audioPlayer.isPlaying
+//        {
+//            audioPlayer.pause()
+//        }
+//    }
     
     @IBAction func prev(_ sender: Any)
     {

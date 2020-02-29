@@ -13,6 +13,7 @@ var songs:[String] = []
 var audioPlayer = AVAudioPlayer()
 var thisSong = 0
 var audioStuffed = false
+//var isPlaying = false
 
 class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -41,7 +42,8 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
             audioPlayer.numberOfLoops = -1;
             
             audioPlayer.play()
-                
+            //isPlaying = true;
+            
             thisSong = indexPath.row
             audioStuffed = true
         }
